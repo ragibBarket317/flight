@@ -10,7 +10,7 @@ import {
 const Footer = () => {
   return (
     <footer className="bg-white text-gray-800 py-10">
-      <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-4  lg:grid-cols-5 gap-6 text-sm">
+      <div className="container grid grid-cols-1 md:grid-cols-4  lg:grid-cols-5 gap-6 text-sm">
         {/* Left Section - Company Info */}
         <div className="space-y-3">
           <img src="/logo.png" alt="Flight Logo" className="h-28" />
