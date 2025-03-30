@@ -50,23 +50,22 @@
   }
 }
 
-/* For large devices (laptops/desktops) */
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .container {
-    width: 85%;
+    width: 90%;
   }
 }
 
 /* For medium devices (tablets) */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .container {
     width: 94%;
   }
 }
 
 /* For small devices (phones) */
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .container {
-    width: 100%;
+    width: 98%;
   }
 }
